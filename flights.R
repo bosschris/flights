@@ -7,7 +7,7 @@
 
 #Να υπολογίσετε και να εμφανίσετε τις απαντήσεις για κάθε ένα από τα παρακάτω ερωτήματα
 #load dataset
-setwd("?????PATH????")
+setwd("C:\Users\User")
 flights<-read.csv('DelayedFlights.csv')
 #Προσθήκη στήλης ημερομηνίας YYYYMMDD
 flights$date<-flights$DayofMonth+flights$Month*100+flights$Year*10000
